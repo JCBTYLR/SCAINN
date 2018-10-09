@@ -1,0 +1,58 @@
+body{
+	margin-left: 100px;
+	margin-right: 100px;
+	background: navy;
+}
+
+.gallery-foreground{
+	background: white;
+	display: inline-block;
+	position: absolute;
+	width: 1200px;
+	text-align: center;
+}
+
+.navbar{
+	display: inline;
+}
+
+.navbar-home, .navbar-gallery, .navbar-reviews, .navbar-booking, .navbar-calendar, .navbar-feedback{
+	display: inline;
+	font-weight: bold;
+	padding: 50px;
+	text-align: center;
+}
+
+/*.lower-floor-headline{
+	display: inline-block;
+}*/
+
+.lower-floor-info{
+	display: inline-block;
+	width: 49%;
+}
+
+.lower-floor-pics{
+	display: inline-block;
+	width: 49%;
+}
+
+.main-floor-info{
+	display: inline-block;
+	width: 49%;
+}
+
+.main-floor-pics{
+	display: inline-block;
+	width: 49%;
+}
+
+.top-floor-info{
+	display: inline-block;
+	width: 49%;
+}
+
+.top-floor-pics{
+	display: inline-block;
+	width: 49%;
+}

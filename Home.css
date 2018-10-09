@@ -1,0 +1,42 @@
+body{
+	margin-left: 100px;
+	margin-right: 100px;
+	background: navy;
+}
+
+.home-foreground{
+	background: white;
+	display: inline-block;
+	position: absolute;
+	width: 900px;
+	text-align: center;
+}
+
+.navbar{
+	display: inline;
+}
+
+li{
+	display: inline;
+	font-weight: bold;
+	padding: 50px;
+	text-align: center;
+}
+
+.home-intro-heading{
+	text-align: center;
+}
+
+.home-paragraph-map{
+	display: inline-block;
+	width: 49%;
+}
+
+.home-map{
+	text-align: center;
+}
+
+.home-pics{
+	display: inline-block;
+	width:49%;
+}

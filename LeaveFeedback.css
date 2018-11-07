@@ -5,16 +5,16 @@ body{
 	font-family: Arial, sans-serif;
 }
 
-.home-foreground{
+.feedback-foreground{
 	background: white;
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
 	width: 1100px;
-	text-align: center;
+	text-align: left;
 }
 
-.navbar{
+.feedback-navbar{
 	display: inline;
 }
 
@@ -29,22 +29,8 @@ a:link{
 	text-decoration: none;
 }
 
-.home-intro-heading{
-	text-align: center;
-}
-
-.home-paragraph-map{
-	display: inline-block;
-	width: 49%;
-}
-
-.home-map{
-	text-align: center;
-}
-
-.home-pics{
-	display: inline-block;
-	width:49%;
+.box1{
+	padding: 15px;
 }
 
 @media all and (max-width: 760px){
@@ -53,25 +39,9 @@ a:link{
 		margin-right: 5%;
 	}
 
-	.home-intro-heading1{
-		font-size: 1.5em;
-	}
-
-	.home-intro-heading2{
-		font-size: 1.0em;
-	}
-
-	.home-foreground{
+	.feedback-foreground{
 		width: 90%;
 		vertical-align: center; 
-	}
-
-	.home-paragraph-map{
-		width: 90%;
-	}
-
-	.home-pics{
-		display: none;
 	}
 
 	.home-map{

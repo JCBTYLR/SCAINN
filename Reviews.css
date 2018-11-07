@@ -5,7 +5,7 @@ body{
 	font-family: Arial, sans-serif;
 }
 
-.home-foreground{
+.reviews-foreground{
 	background: white;
 	display: block;
 	margin-left: auto;
@@ -14,7 +14,7 @@ body{
 	text-align: center;
 }
 
-.navbar{
+.reviews-navbar{
 	display: inline;
 }
 
@@ -29,26 +29,8 @@ a:link{
 	text-decoration: none;
 }
 
-.home-intro-heading{
-	text-align: center;
-}
-
-.home-paragraph-map{
-	display: inline-block;
-	width: 49%;
-}
-
-.home-map{
-	text-align: center;
-}
-
-.home-pics{
-	display: inline-block;
-	width:49%;
-}
-
 @media all and (max-width: 760px){
-	body{
+/*	body{
 		margin-left: 5%;
 		margin-right: 5%;
 	}
@@ -76,5 +58,5 @@ a:link{
 
 	.home-map{
 		display: none;
-	}
+	}*/
 }

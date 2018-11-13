@@ -16,6 +16,7 @@ body{
 
 .feedback-navbar{
 	display: inline;
+	text-align: center;
 }
 
 li{
@@ -42,9 +43,17 @@ a:link{
 	.feedback-foreground{
 		width: 90%;
 		vertical-align: center; 
+	}	
+
+	ul {
+		display: flex;
+  		justify-content: center;
+  		flex-wrap: wrap;
 	}
 
-	.home-map{
-		display: none;
+	.feedback-navbar-home, .feedback-navbar-gallery, .feedback-navbar-feedback {
+		padding: 10px;
+		flex-wrap: wrap;
+		justify-content: center;
 	}
 }

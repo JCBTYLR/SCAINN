@@ -29,10 +29,6 @@ a:link{
 	text-decoration: none;
 }
 
-/*.lower-floor-headline{
-	display: inline-block;
-}*/
-
 .lower-floor-info{
 	display: inline-block;
 	width: 49%;
@@ -79,4 +75,45 @@ a:link{
 
 .top-floor{
 	margin-top: 50px;
+}
+
+@media all and (max-width: 760px){
+	
+	body {
+		margin-left: 0px;
+		margin-right: 0px;
+	}
+
+	ul {
+		display: flex;
+  		justify-content: center;
+  		flex-wrap: wrap;
+	}
+
+	.gallery-navbar-home, .gallery-navbar-gallery, .gallery-navbar-reviews, .gallery-navbar-booking, .gallery-navbar-calendar, .gallery-navbar-feedback {
+		padding: 10px;
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+
+	.gallery-foreground {
+		width: 400px;
+	} 
+
+	.lower-floor-info, .main-floor-info, .top-floor-info {
+		display: none;
+	}
+
+	.lower-floor-pics, .main-floor-pics, .top-floor-pics {
+		width: 100%;
+	}
+
+	.basement1, .basement2, .main1, .main2, .top1, .top2 {
+		width: 300px;
+	}
+
+	.main-floor-pics {
+		display: block;
+		justify-content: center;
+	}
 }

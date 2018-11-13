@@ -53,6 +53,18 @@ a:link{
 		margin-right: 5%;
 	}
 
+	ul {
+		display: flex;
+  		justify-content: center;
+  		flex-wrap: wrap;
+	}
+
+	.home-navbar-home, .home-navbar-gallery, .home-navbar-feedback {
+		padding: 10px;
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+
 	.home-intro-heading1{
 		font-size: 1.5em;
 	}
@@ -78,3 +90,4 @@ a:link{
 		display: none;
 	}
 }
+

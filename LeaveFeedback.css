@@ -56,4 +56,8 @@ a:link{
 		flex-wrap: wrap;
 		justify-content: center;
 	}
+
+	textarea {
+		width: 100px;
+	}
 }
